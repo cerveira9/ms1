@@ -31,6 +31,6 @@ app.get('/', (req, res) => {
     res.send(dados)
 })
 
-app.listen(3005, () => {
+app.listen(8080, () => {
     console.log('Microserviço em execução!')
 })
